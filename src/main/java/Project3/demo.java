@@ -11,7 +11,7 @@ public class demo {
             new Pickup("江铃皮卡",1500,5,1),new Pickup("福特猛禽",2300,5,3)};
 */
     public static void main(String[] args) {
-        Car[] car = { new Truck("货车",300,5),new Truck("大型货车",1000,20),
+        Car[] car = { new Truck("车",300,5),new Truck("大型货车",1000,20),
                 new PassageCar("宝马Z4",3,2), new PassageCar("奥迪A8",2,5),
                 new Pickup("江铃皮卡",1500,5,1),new Pickup("福特猛禽",2300,5,3)};
         System.out.println("您是否租车：1是    0否");
